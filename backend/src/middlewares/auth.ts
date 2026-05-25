@@ -30,7 +30,7 @@ export const authenticate = (
     };
 
     next();
-  } catch (error) {
+  } catch (_error) {
     res.status(401).json({
       success: false,
       error: 'Invalid or expired token',

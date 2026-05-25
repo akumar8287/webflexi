@@ -97,7 +97,7 @@ export class AuthService {
       role: user.role,
     });
 
-    const { password: _, ...userWithoutPassword } = user;
+    const { password: _password, ...userWithoutPassword } = user;
 
     return {
       user: userWithoutPassword,

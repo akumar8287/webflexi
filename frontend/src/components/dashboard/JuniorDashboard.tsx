@@ -153,10 +153,10 @@ function OverviewTab() {
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
           <h4 className="font-semibold text-gray-900 mb-2">Getting Started</h4>
           <ol className="list-decimal list-inside space-y-2 text-sm text-gray-700">
-            <li>Browse available mentors in the "Find Mentors" tab</li>
-            <li>Click "Request Session" on a mentor's profile</li>
+            <li>Browse available mentors in the &quot;Find Mentors&quot; tab</li>
+            <li>Click &quot;Request Session&quot; on a mentor&apos;s profile</li>
             <li>Wait for the mentor to accept your request</li>
-            <li>Join the session when it's scheduled</li>
+            <li>Join the session when it&apos;s scheduled</li>
           </ol>
         </div>
       </div>
